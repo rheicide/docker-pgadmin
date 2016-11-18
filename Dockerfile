@@ -19,4 +19,6 @@ USER pgadmin
 
 VOLUME /home/pgadmin
 
+EXPOSE 5050
+
 CMD ["sh", "-c", "python ${PACKAGE_DIR}/pgAdmin4.py"]
